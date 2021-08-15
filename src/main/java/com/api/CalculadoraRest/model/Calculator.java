@@ -37,6 +37,6 @@ public class Calculator {
 	public long getId() {
 		return id;
 	}
-	
+	 
 	
 }
