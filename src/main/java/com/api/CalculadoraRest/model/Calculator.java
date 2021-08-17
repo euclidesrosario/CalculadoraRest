@@ -13,30 +13,14 @@ import javax.persistence.Table;
 public class Calculator {
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	private BigDecimal primeiroNumero;
-	private BigDecimal segundoNumero;
+	
 	private BigDecimal result;
-	public BigDecimal getPrimeiroNumero() {
-		return primeiroNumero;
-	}
-	public void setPrimeiroNumero(BigDecimal primeiroNumero) {
-		this.primeiroNumero = primeiroNumero; 
-	}
-	public BigDecimal getSegundoNumero() {
-		return segundoNumero;
-	}
-	public void setSegundoNumero(BigDecimal segundoNumero) {
-		this.segundoNumero = segundoNumero;
-	}
+	
 	public BigDecimal getResult() {
 		return result;
 	}
 	public void setResult(BigDecimal result) {
 		this.result = result;
 	}
-	public long getId() {
-		return id;
-	}
-	 
 	
 }
